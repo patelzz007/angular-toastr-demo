@@ -28,6 +28,7 @@ export class ToastComponent implements OnInit {
   }
 
   dismiss(): void {
+    console.log( "Dismiss Toast At Controller." );
     this.toast.dismissToast();
   }
 

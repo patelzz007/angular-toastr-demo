@@ -23,6 +23,7 @@ export class ToastService {
   }
 
   dismissToast(): void {
+    console.log( "Dismiss Toast At Service." );
     this.showsToast$.next(false);
   }
 }
